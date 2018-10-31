@@ -6,3 +6,4 @@
   </table>
 </form>
 
+<a href="/list2">json link list</a>

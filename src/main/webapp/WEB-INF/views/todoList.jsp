@@ -9,10 +9,10 @@
   <jsp:include page="todoForm.jsp" />
   <hr>
   <table>
-    <tr><th>task</th><th>assignee</th><th>DELETE</th></tr>
+    <tr><th>id</th><th>task</th><th>assignee</th><th>DELETE</th></tr>
  
     <c:forEach items="${todos}" var="todo">
-    <tr><td>${todo.task}</td><td>${todo.assignee}</td><td><a href="delete/${todo.id}">delete</a></tr>
+    <tr><td>${todo.id}</td><td>${todo.task}</td><td>${todo.assignee}</td><td><a href="delete/${todo.id}">delete</a></tr>
     </c:forEach>  
 
   </table>

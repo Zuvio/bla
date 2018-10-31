@@ -31,7 +31,8 @@ public class TodoController {
   }
 
 
-  /**nu de fancy manier om het web gedeelte al het werk te laten obv json berichten die hij binnenkrijgt*/
+  /**  R E S T  A P I     -0-------
+   * nu de fancy manier om het web gedeelte al het werk te laten obv json berichten die hij binnenkrijgt*/
   @ResponseBody
   @RequestMapping(value = "/create2", method = RequestMethod.POST)
   public void create2(@RequestBody Todo todo) {
