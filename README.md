@@ -13,7 +13,7 @@ Package 'service' = 3e pijler
 @ResponseBody //geeft aan: niet moeilijk doen met zoeken naar jsp, maar gewoon de return waarde teruggeven
 @GetMapping("/hallo") //geeft de url aan war die naar zoekt, direct achter localhost
 model heeft de data / controller heeft de functies
-los van alles is de application, daar kom je nooit aan is puur voor de main()
+los van alles is de application, daar kom je nooit aan is puur voor de main().
 
                     model
 blokjes zijn: web controller services
